@@ -1,0 +1,90 @@
+$font-header: 'Playfair Display', serif;
+$font-text: 'Karla', sans-serif;
+
+$color-button: #be664b;
+$color-one: #fff6ed;   //*beige
+
+
+body {
+    font-family: $font-text;
+}
+navbar {
+    background-color: #fff6ed;
+}
+
+.btn {
+    background-color: $color-button;
+    border: none;
+}
+.carousel-caption {
+    left: 50%;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translate(-50%, -50%);
+}
+.carousel-caption h3 {
+    font-family: $font-header;
+    font-size: 104px;
+}
+.carousel-caption h4 {
+    font-family: $font-text;
+    font-size: 15px;
+}
+
+.carousel-inner, .carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.newsletter {
+    background-color: $color-one;
+}
+.box {
+    padding: 0 5px;
+    margin-bottom: 3px;
+}
+.newsletter a {
+    color: black;
+}
+.footer {
+    background-color: #ffdecb;
+}
+.news h2 {
+    font-family: $font-header;
+    font-size: 45px;
+    color: white;
+}
+.news .btn {
+    justify-content: center;
+}
+.footer h6 {
+    font-size: 12px;
+}
+.list-inline-item {
+    font-size: 12px;
+}
+.products h3 {
+    font-size: 16px;
+}
+.newsletter h5 {
+    font-size: 20px;
+}
+.newsletter h6 {
+    font-size: 14px;
+}
+.newsletter p {
+    font-size: 11px;
+}
+.shipping p {
+    font-size: 13px;
+}
